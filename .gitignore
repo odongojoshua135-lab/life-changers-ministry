@@ -1,0 +1,10 @@
+# Ignore local OS junk
+.DS_Store
+Thumbs.db
+
+# Ignore local vendor dependencies if using composer
+/vendor/
+
+# Ignore local uploads (optional: keep if you want demo images, ignore if sensitive)
+/uploads/*
+!/uploads/.gitkeep

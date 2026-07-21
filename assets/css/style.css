@@ -1,0 +1,31 @@
+/* css/style.css */
+
+/* Custom smooth transition behaviors for complex UI components */
+.scroll-smooth {
+    scroll-behavior: smooth;
+}
+
+/* Custom Webkit scrollbar stylings for elegant Dashboard panel frames */
+::-webkit-scrollbar {
+    width: 6px;
+    height: 6px;
+}
+
+::-webkit-scrollbar-track {
+    background: transparent;
+}
+
+::-webkit-scrollbar-thumb {
+    background: #cbd5e1; /* slate-300 */
+    border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: #94a3b8; /* slate-400 */
+}
+
+/* Selection highlighting tweaks */
+::selection {
+    background-color: rgba(79, 70, 229, 0.15); /* indigo-600 opacity tint */
+    color: #4f46e5;
+}
