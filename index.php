@@ -26,7 +26,30 @@ $testimonies = $testiStmt->fetchAll();
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <!-- Primary SEO Meta Tags -->
     <title>Life Changers Ministry - Transforming Lives, Restoring Hope</title>
+    <meta name="title" content="Life Changers Ministry - Transforming Lives, Restoring Hope">
+    <meta name="description" content="Welcome to Life Changers Ministry. Join us for worship, uplifting fellowship, community outreach events, and powerful sermon messages.">
+    <meta name="keywords" content="Life Changers Ministry, Church, Sermons, Christian Community, Worship, Faith, Outreach">
+    <meta name="robots" content="index, follow">
+
+    <!-- Open Graph / Facebook / WhatsApp Preview Meta Tags -->
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://life-changers-ministry.onrender.com/">
+    <meta property="og:title" content="Life Changers Ministry - Transforming Lives, Restoring Hope">
+    <meta property="og:description" content="Welcome to Life Changers Ministry. Join us in making a global impact and transforming lives through faith and service.">
+    <meta property="og:image" content="https://life-changers-ministry.onrender.com/assets/images/preview-og.jpg">
+
+    <!-- Twitter Card Meta Tags -->
+    <meta property="twitter:card" content="summary_large_image">
+    <meta property="twitter:url" content="https://life-changers-ministry.onrender.com/">
+    <meta property="twitter:title" content="Life Changers Ministry - Transforming Lives, Restoring Hope">
+    <meta property="twitter:description" content="Welcome to Life Changers Ministry. Join us in making a global impact and transforming lives through faith and service.">
+
+    <!-- Google Search Console Verification Placeholder (Replace string with your actual GSC code) -->
+    <!-- <meta name="google-site-verification" content="YOUR_GOOGLE_VERIFICATION_CODE_HERE" /> -->
+
     <!-- Tailwind CSS CDN -->
     <script src="https://cdn.tailwindcss.com"></script>
 </head>
